@@ -1,0 +1,33 @@
+# ===== 缓存 / 依赖 / 构建产物（可重新生成） =====
+node_modules/
+venv/
+__pycache__/
+*.pyc
+.idea/
+.ipynb_checkpoints/
+dist/
+build/
+
+# ===== CIFAR-10 公开数据集（可从官网重新下载，本地有两份重复） =====
+cifar-10-batches-py/
+
+# ===== 超过50MB的模型/数据文件（GitHub限制，文件仍保留在本地与网盘） =====
+/03_机器学习/02.KUNN算法/03-代码/day02/day02/data/手写数字识别.csv
+/03_机器学习/02.KUNN算法/03-代码/day02/day02/model/手写数字识别.pkl
+/03_机器学习/02.KUNN算法/06-资料/手写数字识别.csv
+/04_深度学习神经网络/代码/day06/data/cifar-10-python.tar.gz
+/05_NPL自然语言处理/day02/03-代码/demo1_data_preprocess/data/ai20_fil9.bin
+/05_NPL自然语言处理/day02/03-代码/demo1_data_preprocess/data/ai20aa
+/05_NPL自然语言处理/day02/03-代码/demo1_data_preprocess/data/ai20ab
+/05_NPL自然语言处理/day02/03-代码/demo1_data_preprocess/data/ai20ac
+/05_NPL自然语言处理/day02/03-代码/demo1_data_preprocess/data/ai20ad
+/05_NPL自然语言处理/day02/03-代码/demo1_data_preprocess/data/ai20ae
+/05_NPL自然语言处理/day02/03-代码/demo1_data_preprocess/data/ai20af
+/05_NPL自然语言处理/day02/03-代码/demo1_data_preprocess/data/ai20ag
+/05_NPL自然语言处理/day02/03-代码/demo1_data_preprocess/data/fil9
+/05_NPL自然语言处理/nlp_codes/day02/ai23_fil9.bin
+/05_NPL自然语言处理/nlp_codes/day02/fil9
+/05_NPL自然语言处理/nlp_codes/day12/fasttext_data/ai23_new1.bin
+/05_NPL自然语言处理/nlp_codes/day13/save_model/ai23_fill_mask_1.bin
+/05_NPL自然语言处理/nlp_codes/day13/save_model/ai23_fill_mask_2.bin
+/05_NPL自然语言处理/nlp_codes/day13/save_model/ai23_fill_mask_3.bin
